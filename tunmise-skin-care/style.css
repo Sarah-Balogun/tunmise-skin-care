@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    
+      background-image: url("images/IMG1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+
+}
+
+.nav_bar h1{
+    color: white;
+    text-decoration: center;
+}
+.container{
+    display: flex;
+    gap: 7em;
+}
+.nav_bar1 {
+    margin-left: 1em;
+    margin-top: 1em;
+
+}
+.nav_bar1 a{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    display: inline-flex;
+    gap: 5px;
+    font-size: 12px;
+    margin-left: 0.5em; 
+    
+}
+
+.nav_bar2{
+    width: 40%;
+}
+.nav_bar2 h1{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 0.4em;
+    
+
+}
+.nav_bar3{
+    display: inline-flex;
+    
+}
+.nav_bar3 a{
+    text-decoration: none;
+    color: white;
+    margin-top: 1.2em;
+    font-size: 12px;
+}
+
+.search-icon,
+.login-icon,
+.cart-icon {
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+hr{
+    width: 105%;
+    margin-left: -1em;
+}
+#text{
+    margin: 2em 0 0 1em;
+    font-size: 20px;
+}
+#text_2{
+    margin: 1em 0 1em 0.5em;
+    font-size: 30px;
+    line-height: 1.2;
+}
+.product a{
+    text-decoration: none;
+    border: white 2px solid;
+    margin: 1em 0 0 1em;
+    color: white;
+    padding: 15px 10px 15px 10px;
+    font-size: 15px;
+}
+.product a:hover{
+    background-color: white;
+    color: black;
+}
+.container_2{
+    background-color: #E5E4E2;
+    margin-top: -1em;
+    padding: 2em 0 0 0;
+}
+#text_3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 2em;
+}
+#text_4{
+    margin-left: 2.4em;
+}
+.sub_container{
+    display: flex;
+    gap: 5%;
+    margin: 2em 2em 0 2em;
+    padding-bottom: 5em;
+}
+.sub_container a img{
+    width: 100%;
+    
+   
+}
+.sub_container a{
+    color: black;
+    margin-top: 2em;
+    text-align: center;
+}
+#text_5{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2em;
+    font-weight: bold;
+}
+#text_6{
+    margin-left: 3.2em;
+    line-height: 1.4;
+}
+.sub_container_2{
+    display: flex;
+    gap: 30px;
+    margin-left: 3em;
+}
+.sub_container_2 img{
+    width: 22%;
+    background-color: #E5E4E2;
+    
+}
